@@ -55,7 +55,7 @@ contains
          __FILENAME__, __LINE__)
     end if
     if (len(trim(adjustl(filename))) > charLen) then
-       call exception("filename " // trim(adjustl(filename)) //  " is too long", &
+       call exception("filename " // trim(adjustl(filename)) //  " is way too long", &
          __FILENAME__, __LINE__)
     end if
 
